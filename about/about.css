@@ -1,1 +1,19 @@
-.fig
+@charset "UTF-8";
+
+*{
+box-sizing:border-box;
+}
+
+body{
+    font-size:16px;
+    line-height:1.5;
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",YuGOthic,"ヒラギノ角ゴ ProN W3","Hiragino kaku Gothic ProN",Arial,"メイリオ",Meiryo,sans-serif;
+    color:aliceblue;
+    background-color: aqua;
+}
+
+.example img{
+    width:450px;
+    height:600px
+}
+
