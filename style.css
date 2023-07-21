@@ -11,6 +11,13 @@ body{
     font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",YuGOthic,"ヒラギノ角ゴ ProN W3","Hiragino kaku Gothic ProN",Arial,"メイリオ",Meiryo,sans-serif;
     color:aliceblue;
     background-color: aqua;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+main,header{
+    margin: 0 auto;
+    max-width: 960px;
 }
 
 .example img{
