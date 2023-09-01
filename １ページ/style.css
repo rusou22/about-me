@@ -1,0 +1,28 @@
+body{
+    font-size:16px;
+    line-height:1.5;
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",YuGOthic,"ヒラギノ角ゴ ProN W3","Hiragino kaku Gothic ProN",Arial,"メイリオ",Meiryo,sans-serif;
+    color:rgb(0, 0, 0);
+    background-image:url("./img/gazou3.png");
+    background-size: cover;
+
+
+}
+
+.one{
+    text-align: center;
+}
+
+.mokuzi{
+    text-align: center;
+    font-size: 80px;
+}
+
+.nav{
+    text-align: center;
+    font-size: 40px;
+}
+
+.no-bullet{
+    list-style: none;
+}
