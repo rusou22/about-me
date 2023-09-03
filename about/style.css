@@ -15,7 +15,7 @@ box-sizing:border-box;
 */
 
 body {
-  background-image: url("./img/22739902.jpg");
+  background-image: url("./img/umi.png");
   background-size: cover; /* 画像をコンテナにフィットさせる */
   background-repeat: no-repeat; /* 背景画像を繰り返し表示しない */
 }
@@ -53,10 +53,8 @@ main,header{
 .risut{
     font-size: large;
     display: flex
+
 }
-
-
-
 
 
 .tokuifutokui{
@@ -80,3 +78,4 @@ main,header{
     justify-content: center;
     gap: 1em;
 }
+

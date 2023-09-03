@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+box-sizing:border-box;
+}
+
+
+body{
+    font-size:16px;
+    line-height:1.5;
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",YuGOthic,"ヒラギノ角ゴ ProN W3","Hiragino kaku Gothic ProN",Arial,"メイリオ",Meiryo,sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+.header{
+    background-color: cyan;
+    text-align: center;
+}
+
+.main{
+    background-color: chartreuse;
+}

@@ -1,84 +1,106 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web基礎課題 プロフィール・ポートフォリオサイト</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>お問い合わせフォーム</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        #response {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-<heder class="heder">
-   <h1>自己紹介</h1>
-</heder>
-<main>
-    <div class="example">
-        <img src="./img/dog.jpg" alt="自分の写真">
-
-        <div class="about">
-
-            <h2>指名：陬防奏(すわそう) <br>
-                生年月日:平成14年4月24日 <br>
-            </h2>
-            <p></p>
-            <h2>資格</h2>
-            <ul>
-                <li>計算技術検定3級</li>
-                <li>情報技術検定3級</li>
-                <li>基礎製図検定</li>
-                <li>QC検定4級</li>
-                <li>普通二輪(近日取得予定)</li>
-            </ul>
-        </div>
-
-    </div>
-<nav>
-<ul>
-    <li><a href="#about">自己紹介一覧</a></li>
-    <li><a href="#contact">お問い合わせ</a></li>
-</ul>
-</nav>
-
-<div class="about">
-    <h1 id="about">プロフィール</h1>
-    <h2>指名：陬防奏(すわそう) <br>
-        生年月日:平成14年4月24日 <br>
-    </h2>
-    <p></p>
-    <h2>資格</h2>
-    <ul>
-        <li>計算技術検定3級</li>
-        <li>情報技術検定3級</li>
-        <li>基礎製図検定</li>
-        <li>QC検定4級</li>
-        <li>普通二輪(近日取得予定)</li>
-    </ul>
-</div>
-<div class="contact">
-    <h1>お問い合わせ</h1>
-     <form method="POST" action="送信先のURL">
-            <label for="name">名前:</label>
+    <h1>お問い合わせフォーム</h1>
+    <div class="container">
+        <form id="contact-form">
+            <label for="name">お名前:</label>
             <input type="text" id="name" name="name" required>
-            
+
             <label for="email">メールアドレス:</label>
             <input type="email" id="email" name="email" required>
-            
-            <label for="message">メッセージ:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            
+
+            <label for="message">お問い合わせ内容:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
             <input type="submit" value="送信">
         </form>
-        
-        <div class="contact-info">
-            <p><i class="fas fa-envelope"></i> example@example.com</p>
-            <p><i class="fas fa-phone"></i> 012-345-6789</p>
-        </div>
-</div>
 
+        <div id="response"></div>
+    </div>
 
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function (e) {
+            e.preventDefault();
 
-</main>
+            const formData = new FormData(this);
+            const jsonData = {};
+            formData.forEach((value, key) => {
+                jsonData[key] = value;
+            });
 
-
-    
+            // サーバーへの送信をここでシミュレート
+            setTimeout(function () {
+                const responseDiv = document.getElementById("response");
+                responseDiv.innerHTML = "お問い合わせが送信されました。ありがとうございます！";
+            }, 1000);
+        });
+    </script>
 </body>
 </html>
