@@ -12,6 +12,7 @@ body{
     color:rgb(0, 0, 0);
 }
 
+
 .header{
     background-color: cyan;
     text-align: center;
@@ -19,4 +20,64 @@ body{
 
 .main{
     background-color: chartreuse;
+    display: flex;
 }
+
+.profile{
+    position: relative;
+    width:100%;
+    height: 300px;
+    margin:#6091d3
+}
+
+.background-aquamarine{
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+    background:#6091d3;
+
+
+}
+.contents{
+    position: relative;
+}
+
+.photo img{
+    display: flex;
+    width:450px;
+    height:450px;
+    display: flex;
+}
+
+.mozi{
+    font-size: 50px;
+    padding-left: 110px;
+}
+
+
+
+.size_text{
+    font-size: 50px;
+}
+
+.size_text2{
+    font-size: 30px;
+}
+
+
+.box2{
+    padding: 0.5em 0.5em;
+    margin: 2em 2em;
+    font-weight: bold;
+    color:black;
+    background: #FFF;
+    border:solid 3px #6091d3;
+    border-radius: 10px;
+}
+
+.box2 p{
+    margin: 0;
+    padding: 0;
+}
+

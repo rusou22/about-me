@@ -1,26 +1,38 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Web基礎課題 プロフィール・ポートフォリオサイト</title>
+    <title>写真とテキスト</title>
+    <style>
+        /* コンテナ全体を包むスタイル */
+        .container {
+            display: flex; /* Flexboxを使用して要素を横に並べる */
+            align-items: center; /* 要素を垂直方向に中央に配置 */
+            max-width: 800px; /* コンテナの最大幅を設定 */
+            margin: 0 auto; /* コンテナを中央に配置 */
+            padding: 20px; /* 内側の余白 */
+        }
+
+        /* 画像のスタイル */
+        .image {
+            max-width: 50%; /* 画像の最大幅を設定 */
+        }
+
+        /* テキストのスタイル */
+        .text {
+            flex: 1; /* テキストを伸縮可能にする */
+            padding-left: 20px; /* テキストと画像の間のスペースを設定 */
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+        }
+    </style>
 </head>
-
 <body>
-
- <main class="main">
- <header>
- <h1 class="top">
- <img  src="./img/top.png" alt="トップページ画像">
- </h1>
- </header>
- 
- <figure class="figure">
-     <img src="./img/sea.jpg" alt="海の画像">
- </figure>
-
-</main>
-
+    <div class="container">
+        <img src="https://via.placeholder.com/300" alt="仮の画像" class="image">
+        <p class="text">ここにテキストを追加します。写真の右に配置されます。</p>
+    </div>
 </body>
 </html>
