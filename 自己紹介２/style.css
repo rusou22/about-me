@@ -43,7 +43,7 @@ hr{
 
 
 .size_text{
-    font-size: 50px;
+    font-size: 48px;
 }
 
 .size_text2{
@@ -66,3 +66,19 @@ hr{
     padding: 0;
 }
 
+.nav1{
+    font-size: 30px;
+}
+
+.nav2{
+    background-color: lightblue;
+}
+
+.nav3{
+    display: flex;
+    list-style: none;
+}
+
+.li1{
+    margin-bottom: 10px;
+}
