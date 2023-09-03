@@ -23,25 +23,7 @@ body{
     display: flex;
 }
 
-.profile{
-    position: relative;
-    width:100%;
-    height: 300px;
-    margin:#6091d3
-}
 
-.background-aquamarine{
-    position: absolute;
-    top:0;
-    bottom:0;
-    width:100%;
-    background:#6091d3;
-
-
-}
-.contents{
-    position: relative;
-}
 
 .photo img{
     display: flex;
@@ -55,6 +37,9 @@ body{
     padding-left: 110px;
 }
 
+hr{
+    border-top: 3px double #ccc;
+}
 
 
 .size_text{
