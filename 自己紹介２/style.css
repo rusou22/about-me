@@ -10,6 +10,11 @@ body{
     line-height:1.5;
     font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",YuGOthic,"ヒラギノ角ゴ ProN W3","Hiragino kaku Gothic ProN",Arial,"メイリオ",Meiryo,sans-serif;
     color:rgb(0, 0, 0);
+        background-image:url("./img/sea5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
