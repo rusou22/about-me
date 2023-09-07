@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+box-sizing:border-box;
+}
+
+
+body{
+    font-size:16px;
+    line-height:1.5;
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",YuGOthic,"ヒラギノ角ゴ ProN W3","Hiragino kaku Gothic ProN",Arial,"メイリオ",Meiryo,sans-serif;
+    color:rgb(0, 0, 0);
+    background-image:url("./img/sea5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+
+    
+
+}
+
+.one{
+    text-align: center;
+    
+
+}
+
+.name{
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    bottom: -160px;
+    color: aliceblue;
+}
+
+.mokuzi{
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    bottom: -250px;
+    background-color: aliceblue;
+}
+
+
+
+.background-image{
+    
+    text-align: center;
+}
+
+
+.nav{
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    bottom: -150px;
+
+}
+
+
+
+.no-bullet li{
+    list-style: none;
+    display: inline;
+
+}
+
+ul li {
+  background-color: lightgray;
+}
