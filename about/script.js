@@ -1,0 +1,3 @@
+bubbly({
+  bubbles: {},
+});

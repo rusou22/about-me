@@ -1,4 +1,10 @@
-/* style.css */
+@charset "UTF-8";
+
+*{
+box-sizing:border-box;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -41,7 +47,7 @@ button:hover {
 }
 
 .nav a{
-	color: #000;
+	color:#f4f4f4;
 }
 
 @media only screen and (min-width: 800px){

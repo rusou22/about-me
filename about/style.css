@@ -4,7 +4,7 @@
 box-sizing:border-box;
 }
 
-/*body{
+body{
     font-size:16px;
     line-height:1.5;
     font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",YuGOthic,"ヒラギノ角ゴ ProN W3","Hiragino kaku Gothic ProN",Arial,"メイリオ",Meiryo,sans-serif;
@@ -12,13 +12,11 @@ box-sizing:border-box;
     background-color: aqua;
 
 }
-*/
 
-body {
-  background-image: url("./img/umi.png");
-  background-size: cover; /* 画像をコンテナにフィットさせる */
-  background-repeat: no-repeat; /* 背景画像を繰り返し表示しない */
+.h1{
+    text-align: center;
 }
+
 
 .body-contena{
     margin: 0 auto;
