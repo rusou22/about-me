@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+box-sizing:border-box;
+}
+
+
+body{
+    font-size:16px;
+    line-height:1.5;
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",YuGOthic,"ヒラギノ角ゴ ProN W3","Hiragino kaku Gothic ProN",Arial,"メイリオ",Meiryo,sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+.h1{
+    font-size: 40;
+}
+
+.header{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+}
+
+
+
+.photo img{
+
+    width:450px;
+    height:450px;
+
+}
+
+.mozi{
+    font-size: 50px;
+    padding-left: 110px;
+}
+
+hr{
+    border-top: 3px double #ccc;
+}
+
+
+.size_text{
+    font-size: 48px;
+}
+
+.size_text2{
+    font-size: 30px;
+}
+
+
+.box2{
+    padding: 0.5em 0.5em;
+    margin: 2em 2em;
+    font-weight: bold;
+    color:black;
+    background: #FFF;
+    border:solid 3px green;
+    border-radius: 10px;
+}
+
+.box2 p{
+    margin: 0;
+    padding: 0;
+}
+
+.nav3{
+    display: flex;
+    list-style: none;
+}
+
+.li1{
+    margin-bottom: 10px;
+}
+
+.nav{
+	text-align: center;
+}
+
+.nav a{
+	color: #000;
+}
+
+@media only screen and (min-width: 800px){
+.nav li{
+	display: inline-block;
+	padding: 50px 25px;
+	font-size: 30px;
+}
+}
