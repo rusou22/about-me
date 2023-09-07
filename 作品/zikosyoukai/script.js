@@ -1,3 +1,0 @@
-bubbly({
-  bubbles: {},
-});
